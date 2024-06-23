@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicios Strings</title>
+</head>
+<body>
+  <script>
+    const nome = prompt("Digite seu nome completo")
+    document.body.innerHTML += `<p> Seu nome é: ${nome}</p>`;
+    document.body.innerHTML += `<p> Seu nome tem ${nome.length} letras</p>`;
+    document.body.innerHTML += `<p> A segunda letra do seu nome é: ${nome[1]}</p>`;
+    document.body.innerHTML += `<p> Qual o primeiro índice da letra I no seu nome? ${nome.toLowerCase().indexOf("i")}</p>`;
+    document.body.innerHTML += `<p> Qual o último índice da letra I no seu nome? ${nome.toLowerCase().lastIndexOf("i")}</p>`;
+    document.body.innerHTML += `<p> As últimas 3 letras do seu nome são: ${nome.slice(-3)}</p>`;
+    document.body.innerHTML += `<p> As palavras do seu nome são: ${nome.split(" ")}</p>`;
+    document.body.innerHTML += `<p> Seu nome com letras maiúsculas: ${nome.toUpperCase()}</p>`;
+    document.body.innerHTML += `<p> Seu nome com letras minúsculas: ${nome.toLowerCase()}</p>`;
+
+  </script>
+</body>
+</html>

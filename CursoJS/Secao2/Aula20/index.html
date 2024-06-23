@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+
+  <style>
+    div{
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div>
+      <label for="name">Nome:</label>
+      <input type="text" name="name" id="name">
+    </div>
+  
+    <div>
+      <label for="lastName">Sobrenome:</label>
+      <input type="text" name="lastName" id="lastName">
+    </div>
+  
+    <div>
+      <label for="peso">Peso:</label>
+      <input type="number" name="peso" id="peso" step="0.1">
+    </div>
+  
+    <div>
+      <label for="altura">Altura:</label>
+      <input type="number" name="altura" id="altura" step="0.1">
+    </div>
+  
+    <button>Enviar</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="js/index.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Iure",
+    "email": "iure@gmail.com",
+    "salario": 2000,
+    "estado": "SP",
+    "empresa": "Sycode",
+    "idade": 20,
+    "sexo": "M",
+    "cpf": "203.522.304-30"
+  },
+  {
+    "nome": "Ana",
+    "email": "ana@gmail.com",
+    "salario": 3500,
+    "estado": "RJ",
+    "empresa": "Google",
+    "idade": 28,
+    "sexo": "F",
+    "cpf": "123.456.789-00"
+  },
+  {
+    "nome": "João",
+    "email": "joao@hotmail.com",
+    "salario": 4000,
+    "estado": "MG",
+    "empresa": "IBM",
+    "idade": 35,
+    "sexo": "M",
+    "cpf": "987.654.321-10"
+  },
+  {
+    "nome": "Maria",
+    "email": "maria@outlook.com",
+    "salario": 2500,
+    "estado": "BA",
+    "empresa": "Amazon",
+    "idade": 22,
+    "sexo": "F",
+    "cpf": "321.654.987-01"
+  },
+  {
+    "nome": "Pedro",
+    "email": "pedro@yahoo.com",
+    "salario": 5000,
+    "estado": "SP",
+    "empresa": "Microsoft",
+    "idade": 40,
+    "sexo": "M",
+    "cpf": "456.789.123-20"
+  },
+  {
+    "nome": "Camila",
+    "email": "camila@uol.com.br",
+    "salario": 3000,
+    "estado": "RS",
+    "empresa": "Meta",
+    "idade": 24,
+    "sexo": "F",
+    "cpf": "567.890.123-30"
+  }
+]
